@@ -8,16 +8,16 @@ def map(array)
   newA
 end
 
-def reduce(array)
+def reduce(array,n)
   val = 0
   i = 0 
-  while i < array.length do
-   val += yield
-    i += 1
-  end
-  val
-  if starting[0]
-     value = starting[0]
+  #while i < array.length do
+   #val += yield
+    #i += 1
+  #end
+ #val
+  if n[0]
+     value = n[0]
      count = 0
      else
      value = array[0]
