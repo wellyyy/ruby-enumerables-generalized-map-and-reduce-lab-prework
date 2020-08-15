@@ -9,14 +9,14 @@ def map(array)
 end
 
 def reduce(array)
- # val = 0
-  #i = 0 
- # while i < array.length do
-  #  val += yield
-  #  i += 1
- # end
- # val
- yield.all?
+  val = 0
+  i = 0 
+  while i < array.length do
+   val += yield
+    i += 1
+ end
+val
+
 end
   
   
