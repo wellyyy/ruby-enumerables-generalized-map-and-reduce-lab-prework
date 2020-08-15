@@ -9,8 +9,8 @@ def map(array)
 end
 
 def reduce(array,n)
-  val = 0
-  i = 0 
+  #val = 0
+  #i = 0 
   #while i < array.length do
    #val += yield
     #i += 1
