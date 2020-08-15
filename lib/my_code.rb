@@ -14,9 +14,8 @@ def reduce(array)
   while i < array.length do
    val += yield
     i += 1
- end
-val
-
+  end
+  val
 end
   
   
